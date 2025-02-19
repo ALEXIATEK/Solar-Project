@@ -10,4 +10,9 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+npx hardhat compile /** A .json file is created under artifacts/ cache/ folder **/
+npx hadhat node /** For local deployment and testing **/
+npx hardhat run scripts/deploy.js --network lisksepolia
+
+
+
