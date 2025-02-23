@@ -5,6 +5,7 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.28",
   networks: {
+     //mainnet
     lisk: {
       url: [process.env.LISK_RPC_URL],
       chainId:1135,
